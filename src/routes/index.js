@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "Cloud Native demo Feb 5nd 2021" });
+  res.render("index", { title: "Cloud Native demo Feb 10nd 2021" });
 });
 
 module.exports = router;
